@@ -16,7 +16,7 @@ public class VehicleDaoImpl implements VehicleDao{
 
 
 	static Connection connection=null;
-	static {
+	static {  
 		try {
 			connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/Vehicle","root","Root");
 		} catch (SQLException e) {
@@ -89,7 +89,7 @@ public class VehicleDaoImpl implements VehicleDao{
 		}
 		
 	}
-		
+		 
 	
 
 	@Override

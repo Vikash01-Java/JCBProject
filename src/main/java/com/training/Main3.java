@@ -20,7 +20,7 @@ public class Main3 {
 //            dao.getAllVehicle();
             
             Vehicle veh =dao.getVehicleBy(3);
-            System.out.println(veh);
+            System.out.println(veh); 
 
             
             System.out.println("done");
